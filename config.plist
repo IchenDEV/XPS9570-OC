@@ -295,6 +295,8 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AACbPg==</data>
+				<key>disable-agdc</key>
+				<data>AQAAAA==</data>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
 				<key>dpcd-max-link-rate</key>
@@ -330,8 +332,6 @@
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 				<key>igfxonln</key>
-				<data>AQAAAA==</data>
-				<key>disable-agdc</key>
 				<data>AQAAAA==</data>
 			</dict>
 		</dict>
@@ -858,6 +858,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>0</integer>
+			<key>SerialInit</key>
+			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -872,8 +874,6 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AuthRestart</key>
-			<false/>
-			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>BootProtect</key>
 			<string>None</string>
@@ -965,6 +965,8 @@
 		<dict>
 			<key>EnableJumpstart</key>
 			<true/>
+			<key>GlobalConnect</key>
+			<false/>
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
@@ -1042,6 +1044,8 @@
 			<true/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1052,6 +1056,8 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEvent</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
 			<false/>
